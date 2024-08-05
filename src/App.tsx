@@ -1,5 +1,5 @@
 
-// import React from 'react';
+import React from 'react';
 import './index.css'
 function App() {
   const startDate: Date = new Date('1998-04-18');
@@ -7,7 +7,7 @@ function App() {
   const millisecondsInDay: number = 1000 * 60 * 60 * 24;
   
   const days: number = Math.floor((currentDate.getTime() - startDate.getTime()) / millisecondsInDay);
-  
+  React
 const totalDays = new Array(27394).fill('✓')
 // const daysInYearArray = [
 //   365, 730, 1095, 1461, 1826, 2191, 2556, 2922, 3287, 3652,
